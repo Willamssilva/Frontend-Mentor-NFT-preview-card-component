@@ -7,10 +7,13 @@
 }
 
 body {
-  font-family: "Outfit", sans-serif;
-  height: 100dvh;
-  background-color: hsl(217, 54%, 11%);
-}
+    font-family: "Outfit", sans-serif;
+    min-height: 100vh; /* Ensure full height on any device */
+    background-color: hsl(217, 54%, 11%);
+    display: grid; /* Grid display for centering */
+    place-content: center; /* Center content */
+    }
+
 
 .container {
   margin: 5vh auto;
@@ -25,6 +28,7 @@ body {
 }
 
 .container:hover {
+
     box-shadow: 2px 2px 50px #0505059a;
 }
 
@@ -36,8 +40,8 @@ body {
 
 .image-view-hover {
   width: 270px;
-  height: 275px;
-  margin: 6vh auto;
+  height: 272px;
+  margin: 25vh auto;
   position: absolute;
   background-image: url(../images/icon-view.svg);
   background-color: rgb(41, 209, 204);
@@ -84,9 +88,11 @@ a:hover {
 }
 
 .eth-value {
-  font-size: 0.97rem;
-  font-weight: 600;
-  color: hsl(178, 100%, 50%);
+    display: flex; /* Flexbox to align content */
+    align-items: center; /* Center vertically */
+    font-size: 0.97rem;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
 }
 
 .eth-value > img {
@@ -94,9 +100,11 @@ a:hover {
 }
 
 .time-left {
-  font-size: 0.97rem;
-  font-weight: 600;
-  color: hsl(178, 100%, 50%);
+    display: flex; /* Flexbox to align content */
+    font-size: 0.97rem;
+    align-items: center; /* Center vertically */
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
 }
 
 .time-left > img {
