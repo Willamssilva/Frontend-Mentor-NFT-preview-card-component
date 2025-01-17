@@ -8,10 +8,10 @@
 
 body {
     font-family: "Outfit", sans-serif;
-    min-height: 100vh; /* Ensure full height on any device */
+    min-height: 100vh; 
     background-color: hsl(217, 54%, 11%);
-    display: grid; /* Grid display for centering */
-    place-content: center; /* Center content */
+    display: grid; 
+    place-content: center; 
     }
 
 
@@ -88,8 +88,8 @@ a:hover {
 }
 
 .eth-value {
-    display: flex; /* Flexbox to align content */
-    align-items: center; /* Center vertically */
+    display: flex; 
+    align-items: center; 
     font-size: 0.97rem;
     font-weight: 600;
     color: hsl(178, 100%, 50%);
@@ -100,9 +100,9 @@ a:hover {
 }
 
 .time-left {
-    display: flex; /* Flexbox to align content */
+    display: flex; 
     font-size: 0.97rem;
-    align-items: center; /* Center vertically */
+    align-items: center; 
     font-weight: 600;
     color: hsl(178, 100%, 50%);
 }
